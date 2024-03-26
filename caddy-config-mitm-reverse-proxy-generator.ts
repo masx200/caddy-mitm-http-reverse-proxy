@@ -1,5 +1,8 @@
 const banner = `
 {
+  log {
+    output file ./access.log
+    }
 	debug
 	local_certs
 	    
@@ -20,76 +23,68 @@ protocols h1 h2 h2c h3
 const upstream = [
   "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
   "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
-  "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+  "https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
 ];
 const caddyFile = "./CaddyFile.txt";
 const trailer = `
 
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx , https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:8443 {
-encode gzip
-	tls internal
-	
-	reverse_proxy * http://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx:8989 {
-		
-	}
 
-
-}
 
 `;
 const hostsFile = "./hosts.txt";
 const domains = Array.from(
   new Set([
+    "*.googlevideo.com",
     "www.v2ex.com",
     "translate.google.com.hk",
     "translate.google.cn",
     "d.apkpure.com",
     "apkpure.com",
     "hub.docker.com",
-    "rr2---sn-npoldne7.googlevideo.com",
-    "rr5---sn-npoe7ne6.googlevideo.com",
-    "rr3---sn-5hnednsz.googlevideo.com",
-    "rr5---sn-25glenlr.googlevideo.com",
-    "rr5---sn-5hne6n6e.googlevideo.com",
-    "rr1---sn-4g5ednsd.googlevideo.com",
-    "rr5---sn-npoeenly.googlevideo.com",
-    "rr4---sn-npoldn7s.googlevideo.com",
-    "rr1---sn-30a7rned.googlevideo.com",
-    "rr4---sn-npoldn7s.googlevideo.com",
-    "rr5---sn-a5meknzs.googlevideo.com",
-    "rr4---sn-a5msenll.googlevideo.com",
-    "rr5---sn-npoe7nek.googlevideo.com",
-    "rr4---sn-npoldn7s.googlevideo.com",
-    "rr1---sn-npoe7nes.googlevideo.com",
-    "rr5---sn-npoe7nek.googlevideo.com",
-    "rr5---sn-a5meknzs.googlevideo.com",
-    "rr4---sn-npoldn7s.googlevideo.com",
-    "rr2---sn-30a7rner.googlevideo.com",
+    "rr2---sn-npoldne7.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-npoe7ne6.xxxxxxxxxxxx.xxxxxxxx",
+    "rr3---sn-5hnednsz.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-25glenlr.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-5hne6n6e.xxxxxxxxxxxx.xxxxxxxx",
+    "rr1---sn-4g5ednsd.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-npoeenly.xxxxxxxxxxxx.xxxxxxxx",
+    "rr4---sn-npoldn7s.xxxxxxxxxxxx.xxxxxxxx",
+    "rr1---sn-30a7rned.xxxxxxxxxxxx.xxxxxxxx",
+    "rr4---sn-npoldn7s.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-a5meknzs.xxxxxxxxxxxx.xxxxxxxx",
+    "rr4---sn-a5msenll.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-npoe7nek.xxxxxxxxxxxx.xxxxxxxx",
+    "rr4---sn-npoldn7s.xxxxxxxxxxxx.xxxxxxxx",
+    "rr1---sn-npoe7nes.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-npoe7nek.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-a5meknzs.xxxxxxxxxxxx.xxxxxxxx",
+    "rr4---sn-npoldn7s.xxxxxxxxxxxx.xxxxxxxx",
+    "rr2---sn-30a7rner.xxxxxxxxxxxx.xxxxxxxx",
     "gds.google.com",
-    "rr2---sn-30a7rne6.googlevideo.com",
-    "rr2---sn-npoeened.googlevideo.com",
-    "rr5---sn-30a7rnek.googlevideo.com",
-    "rr4---sn-p5qlsny6.googlevideo.com",
+    "rr2---sn-30a7rne6.xxxxxxxxxxxx.xxxxxxxx",
+    "rr2---sn-npoeened.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-30a7rnek.xxxxxxxxxxxx.xxxxxxxx",
+    "rr4---sn-p5qlsny6.xxxxxxxxxxxx.xxxxxxxx",
     "lh4.googleusercontent.com",
-    "rr4---sn-q4fl6nsd.googlevideo.com",
-    "rr5---sn-q4fzenee.googlevideo.com",
+    "rr4---sn-q4fl6nsd.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-q4fzenee.xxxxxxxxxxxx.xxxxxxxx",
     "suggestqueries-clients6.youtube.com",
-    "rr1---sn-npoeenle.googlevideo.com",
-    "rr3---sn-a5msenll.googlevideo.com",
-    "rr2---sn-npoe7nds.googlevideo.com",
-    "rr5---sn-npoe7nsr.googlevideo.com",
-    "rr3---sn-30a7rned.googlevideo.com",
-    "rr1---sn-p5qlsn6l.googlevideo.com",
-    "rr2---sn-npoldn7d.googlevideo.com",
+    "rr1---sn-npoeenle.xxxxxxxxxxxx.xxxxxxxx",
+    "rr3---sn-a5msenll.xxxxxxxxxxxx.xxxxxxxx",
+    "rr2---sn-npoe7nds.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-npoe7nsr.xxxxxxxxxxxx.xxxxxxxx",
+    "rr3---sn-30a7rned.xxxxxxxxxxxx.xxxxxxxx",
+    "rr1---sn-p5qlsn6l.xxxxxxxxxxxx.xxxxxxxx",
+    "rr2---sn-npoldn7d.xxxxxxxxxxxx.xxxxxxxx",
     "youtube.com",
-    "rr1---sn-30a7yney.googlevideo.com",
+    "rr1---sn-30a7yney.xxxxxxxxxxxx.xxxxxxxx",
     "googleads.g.doubleclick.net",
     "accounts.google.com.sg",
-    "rr5---sn-npoldn7l.googlevideo.com",
-    "rr4---sn-30a7ynl7.googlevideo.com",
+    "rr5---sn-npoldn7l.xxxxxxxxxxxx.xxxxxxxx",
+    "rr4---sn-30a7ynl7.xxxxxxxxxxxx.xxxxxxxx",
     "accounts.youtube.com",
-    "rr5---sn-a5mlrnll.googlevideo.com",
-    "rr2---sn-npoeenly.googlevideo.com",
+    "rr5---sn-a5mlrnll.xxxxxxxxxxxx.xxxxxxxx",
+    "rr2---sn-npoeenly.xxxxxxxxxxxx.xxxxxxxx",
     "ssl.gstatic.com",
     "lh3.googleusercontent.com",
     "myaccount.google.com",
@@ -107,27 +102,27 @@ const domains = Array.from(
     "www.googleadservices.com",
     "fonts.gstatic.com",
     "objects.githubusercontent.com",
-    "rr2---sn-npoldn7y.googlevideo.com",
-    "rr5---sn-a5mekndl.googlevideo.com",
-    "rr4---sn-npoe7nek.googlevideo.com",
-    "rr2---sn-30a7ynl7.googlevideo.com",
-    "rr4---sn-30a7rner.googlevideo.com",
-    "rr2---sn-npoldn76.googlevideo.com",
-    "rr1---sn-npoldn7d.googlevideo.com",
+    "rr2---sn-npoldn7y.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-a5mekndl.xxxxxxxxxxxx.xxxxxxxx",
+    "rr4---sn-npoe7nek.xxxxxxxxxxxx.xxxxxxxx",
+    "rr2---sn-30a7ynl7.xxxxxxxxxxxx.xxxxxxxx",
+    "rr4---sn-30a7rner.xxxxxxxxxxxx.xxxxxxxx",
+    "rr2---sn-npoldn76.xxxxxxxxxxxx.xxxxxxxx",
+    "rr1---sn-npoldn7d.xxxxxxxxxxxx.xxxxxxxx",
     "tpc.googlesyndication.com",
     "yt3.ggpht.com",
     "play.google.com",
     "i.ytimg.com",
     "fonts.googleapis.com",
-    "rr2---sn-npoeenez.googlevideo.com",
+    "rr2---sn-npoeenez.xxxxxxxxxxxx.xxxxxxxx",
     "jnn-pa.googleapis.com",
-    "rr2---sn-a5msenes.googlevideo.com",
+    "rr2---sn-a5msenes.xxxxxxxxxxxx.xxxxxxxx",
     "pagead2.googlesyndication.com",
-    "rr4---sn-npoe7nsr.googlevideo.com",
+    "rr4---sn-npoe7nsr.xxxxxxxxxxxx.xxxxxxxx",
     "accounts.google.com",
-    "rr2---sn-npoe7nl6.googlevideo.com",
-    "rr5---sn-p5qlsnd6.googlevideo.com",
-    "rr2---sn-npoe7nes.googlevideo.com",
+    "rr2---sn-npoe7nl6.xxxxxxxxxxxx.xxxxxxxx",
+    "rr5---sn-p5qlsnd6.xxxxxxxxxxxx.xxxxxxxx",
+    "rr2---sn-npoe7nes.xxxxxxxxxxxx.xxxxxxxx",
     "ad.doubleclick.net",
   ]),
 );
@@ -136,20 +131,25 @@ const pathname = "/token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/";
 const config = banner + domains.map((domain) => `
 
 ${domain} {
-	encode gzip
-	tls internal
-	rewrite * ${pathname}${domain}{uri}
-	reverse_proxy * ${upstream.join(" ")} {
-		header_up Host {upstream_hostport}
-	}
-}
+  encode gzip
+  tls internal
+  rewrite * ${pathname}{host}{uri}
+  reverse_proxy * ${upstream.join(" ")} {
+  fail_duration 10s
+  unhealthy_status 5xx
+  health_uri /
+  health_status 200
+  health_interval 10s
+  header_up Host {upstream_hostport}
+  }
+  }
 
 `).join("\n") + trailer;
 
 await Deno.writeTextFile(caddyFile, config);
 
 console.log(config);
-const hosts = domains.map((domain) => `
+const hosts = domains.filter((a) => !a.includes("*")).map((domain) => `
 
 ::1     ${domain}
 

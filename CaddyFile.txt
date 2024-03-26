@@ -65,127 +65,127 @@ hub.docker.com {
 	}
 }
 
-rr2---sn-npoldne7.googlevideo.com {
+rr2---sn-npoldne7.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoldne7.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoldne7.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-npoe7ne6.googlevideo.com {
+rr5---sn-npoe7ne6.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoe7ne6.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoe7ne6.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr3---sn-5hnednsz.googlevideo.com {
+rr3---sn-5hnednsz.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr3---sn-5hnednsz.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr3---sn-5hnednsz.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-25glenlr.googlevideo.com {
+rr5---sn-25glenlr.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-25glenlr.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-25glenlr.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-5hne6n6e.googlevideo.com {
+rr5---sn-5hne6n6e.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-5hne6n6e.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-5hne6n6e.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr1---sn-4g5ednsd.googlevideo.com {
+rr1---sn-4g5ednsd.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-4g5ednsd.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-4g5ednsd.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-npoeenly.googlevideo.com {
+rr5---sn-npoeenly.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoeenly.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoeenly.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr4---sn-npoldn7s.googlevideo.com {
+rr4---sn-npoldn7s.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-npoldn7s.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-npoldn7s.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr1---sn-30a7rned.googlevideo.com {
+rr1---sn-30a7rned.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-30a7rned.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-30a7rned.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-a5meknzs.googlevideo.com {
+rr5---sn-a5meknzs.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-a5meknzs.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-a5meknzs.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr4---sn-a5msenll.googlevideo.com {
+rr4---sn-a5msenll.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-a5msenll.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-a5msenll.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-npoe7nek.googlevideo.com {
+rr5---sn-npoe7nek.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoe7nek.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoe7nek.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr1---sn-npoe7nes.googlevideo.com {
+rr1---sn-npoe7nes.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-npoe7nes.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-npoe7nes.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr2---sn-30a7rner.googlevideo.com {
+rr2---sn-30a7rner.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-30a7rner.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-30a7rner.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -200,37 +200,37 @@ gds.google.com {
 	}
 }
 
-rr2---sn-30a7rne6.googlevideo.com {
+rr2---sn-30a7rne6.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-30a7rne6.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-30a7rne6.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr2---sn-npoeened.googlevideo.com {
+rr2---sn-npoeened.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoeened.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoeened.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-30a7rnek.googlevideo.com {
+rr5---sn-30a7rnek.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-30a7rnek.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-30a7rnek.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr4---sn-p5qlsny6.googlevideo.com {
+rr4---sn-p5qlsny6.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-p5qlsny6.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-p5qlsny6.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -245,19 +245,19 @@ lh4.googleusercontent.com {
 	}
 }
 
-rr4---sn-q4fl6nsd.googlevideo.com {
+rr4---sn-q4fl6nsd.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-q4fl6nsd.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-q4fl6nsd.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-q4fzenee.googlevideo.com {
+rr5---sn-q4fzenee.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-q4fzenee.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-q4fzenee.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -272,64 +272,64 @@ suggestqueries-clients6.youtube.com {
 	}
 }
 
-rr1---sn-npoeenle.googlevideo.com {
+rr1---sn-npoeenle.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-npoeenle.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-npoeenle.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr3---sn-a5msenll.googlevideo.com {
+rr3---sn-a5msenll.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr3---sn-a5msenll.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr3---sn-a5msenll.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr2---sn-npoe7nds.googlevideo.com {
+rr2---sn-npoe7nds.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoe7nds.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoe7nds.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-npoe7nsr.googlevideo.com {
+rr5---sn-npoe7nsr.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoe7nsr.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoe7nsr.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr3---sn-30a7rned.googlevideo.com {
+rr3---sn-30a7rned.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr3---sn-30a7rned.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr3---sn-30a7rned.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr1---sn-p5qlsn6l.googlevideo.com {
+rr1---sn-p5qlsn6l.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-p5qlsn6l.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-p5qlsn6l.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr2---sn-npoldn7d.googlevideo.com {
+rr2---sn-npoldn7d.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoldn7d.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoldn7d.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -344,10 +344,10 @@ youtube.com {
 	}
 }
 
-rr1---sn-30a7yney.googlevideo.com {
+rr1---sn-30a7yney.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-30a7yney.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-30a7yney.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -371,19 +371,19 @@ accounts.google.com.sg {
 	}
 }
 
-rr5---sn-npoldn7l.googlevideo.com {
+rr5---sn-npoldn7l.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoldn7l.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-npoldn7l.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr4---sn-30a7ynl7.googlevideo.com {
+rr4---sn-30a7ynl7.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-30a7ynl7.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-30a7ynl7.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -398,19 +398,19 @@ accounts.youtube.com {
 	}
 }
 
-rr5---sn-a5mlrnll.googlevideo.com {
+rr5---sn-a5mlrnll.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-a5mlrnll.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-a5mlrnll.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr2---sn-npoeenly.googlevideo.com {
+rr2---sn-npoeenly.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoeenly.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoeenly.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -569,64 +569,64 @@ objects.githubusercontent.com {
 	}
 }
 
-rr2---sn-npoldn7y.googlevideo.com {
+rr2---sn-npoldn7y.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoldn7y.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoldn7y.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-a5mekndl.googlevideo.com {
+rr5---sn-a5mekndl.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-a5mekndl.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-a5mekndl.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr4---sn-npoe7nek.googlevideo.com {
+rr4---sn-npoe7nek.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-npoe7nek.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-npoe7nek.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr2---sn-30a7ynl7.googlevideo.com {
+rr2---sn-30a7ynl7.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-30a7ynl7.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-30a7ynl7.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr4---sn-30a7rner.googlevideo.com {
+rr4---sn-30a7rner.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-30a7rner.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-30a7rner.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr2---sn-npoldn76.googlevideo.com {
+rr2---sn-npoldn76.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoldn76.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoldn76.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr1---sn-npoldn7d.googlevideo.com {
+rr1---sn-npoldn7d.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-npoldn7d.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr1---sn-npoldn7d.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -677,10 +677,10 @@ fonts.googleapis.com {
 	}
 }
 
-rr2---sn-npoeenez.googlevideo.com {
+rr2---sn-npoeenez.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoeenez.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoeenez.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -695,10 +695,10 @@ jnn-pa.googleapis.com {
 	}
 }
 
-rr2---sn-a5msenes.googlevideo.com {
+rr2---sn-a5msenes.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-a5msenes.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-a5msenes.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -713,10 +713,10 @@ pagead2.googlesyndication.com {
 	}
 }
 
-rr4---sn-npoe7nsr.googlevideo.com {
+rr4---sn-npoe7nsr.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-npoe7nsr.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr4---sn-npoe7nsr.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
@@ -731,28 +731,28 @@ accounts.google.com {
 	}
 }
 
-rr2---sn-npoe7nl6.googlevideo.com {
+rr2---sn-npoe7nl6.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoe7nl6.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoe7nl6.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr5---sn-p5qlsnd6.googlevideo.com {
+rr5---sn-p5qlsnd6.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-p5qlsnd6.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr5---sn-p5qlsnd6.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}
 }
 
-rr2---sn-npoe7nes.googlevideo.com {
+rr2---sn-npoe7nes.xxxxxxxxxxxx.xxxxxxxx {
 	encode gzip
 	tls internal
-	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoe7nes.googlevideo.com{uri}
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/rr2---sn-npoe7nes.xxxxxxxxxxxx.xxxxxxxx{uri}
 	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
 		header_up Host {upstream_hostport}
 	}

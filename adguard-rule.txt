@@ -1,0 +1,5 @@
+!adguard dns 通配符域名匹配规则
+
+*.xxxxxxxxxxxx.xxxxxxxx^$dnsrewrite=NOERROR;AAAA;::1
+
+||xxxxxxxxxxxx.xxxxxxxx^$dnsrewrite=NOERROR;A;127.0.0.1
