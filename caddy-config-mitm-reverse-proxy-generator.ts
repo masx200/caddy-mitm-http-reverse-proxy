@@ -34,7 +34,7 @@ const trailer = `
 const hostsFile = "./hosts.txt";
 const domains = Array.from(
   new Set([
-    "*.googlevideo.com",
+    "*.xxxxxxxxxxxxxxxxxxx",
     "www.v2ex.com",
     "translate.google.com.hk",
     "translate.google.cn",

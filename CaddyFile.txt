@@ -11,6 +11,20 @@
 	}
 }
 
+*.xxxxxxxxxxxxxxxxxxx {
+	encode gzip
+	tls internal
+	rewrite * /token/xxxxxxxxxxxxxxxxxxxxxxxxxxxxxx/https/{host}{uri}
+	reverse_proxy * https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx https://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx {
+		fail_duration 10s
+		unhealthy_status 5xx
+		health_uri /
+		health_status 200
+		health_interval 10s
+		header_up Host {upstream_hostport}
+	}
+}
+
 www.v2ex.com {
 	encode gzip
 	tls internal
